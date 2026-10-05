@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Áurea — Estudio digital · Diseño y desarrollo web</title>
+  <meta name="description" content="Áurea es un estudio digital que combina estrategia, diseño y tecnología para crear marcas y webs que hacen crecer tu negocio.">
+  <meta property="og:title" content="Áurea — Estudio digital">
+  <meta property="og:description" content="Diseñamos marcas y webs que impulsan tu negocio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23C1440E'/%3E%3Ctext x='32' y='44' font-family='Georgia, serif' font-size='36' fill='%23F5F2EB' text-anchor='middle'%3E%C3%81%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="Áurea, inicio">Áurea<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-label="Abrir menú" aria-controls="menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <div class="menu" id="menu">
+        <ul class="menu-list">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#trabajo">Trabajo</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#testimonios">Clientes</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a class="btn btn--primary menu-cta" href="#contacto">Empezar proyecto <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="pill" data-reveal><span class="pill-dot" aria-hidden="true"></span> Disponibles para nuevos proyectos</p>
+          <h1 class="hero-title" data-reveal style="--i:1">Creamos marcas y webs que hacen <em>crecer</em> tu negocio.</h1>
+          <p class="hero-sub" data-reveal style="--i:2">Somos Áurea, un estudio digital que une estrategia, diseño y tecnología para construir experiencias que convierten visitas en clientes.</p>
+          <div class="hero-actions" data-reveal style="--i:3">
+            <a class="btn btn--primary" href="#contacto">Empezar proyecto <span aria-hidden="true">↗</span></a>
+            <a class="btn btn--ghost" href="#trabajo">Ver trabajos</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal style="--i:2">
+          <figure class="hero-figure">
+            <img src="images/hero.jpg" alt="Composición abstracta de formas de arcilla en tonos terracota y crema" width="880" height="1100" fetchpriority="high">
+          </figure>
+          <div class="chip chip--1" aria-hidden="true">
+            <strong>120+</strong>
+            <span>proyectos lanzados</span>
+          </div>
+          <div class="chip chip--2" aria-hidden="true">
+            <strong>★ 4.9/5</strong>
+            <span>valoración de clientes</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marquee de clientes -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Nordik</span><i>✳</i><span>Marea</span><i>✳</i><span>Terra</span><i>✳</i><span>Lumen</span><i>✳</i><span>Orbe</span><i>✳</i><span>Atlas</span><i>✳</i><span>Kiosko</span><i>✳</i><span>Vela</span><i>✳</i>
+          <span>Nordik</span><i>✳</i><span>Marea</span><i>✳</i><span>Terra</span><i>✳</i><span>Lumen</span><i>✳</i><span>Orbe</span><i>✳</i><span>Atlas</span><i>✳</i><span>Kiosko</span><i>✳</i><span>Vela</span><i>✳</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Servicios</p>
+            <h2 class="section-title" data-reveal style="--i:1">Todo lo que tu marca necesita,<br><em>bajo un mismo techo.</em></h2>
+          </div>
+          <p class="section-desc" data-reveal style="--i:2">Desde la estrategia inicial hasta el lanzamiento, te acompañamos en cada etapa con un equipo senior y un proceso probado.</p>
+        </div>
+
+        <ul class="service-list">
+          <li class="service" data-reveal>
+            <span class="service-index">01</span>
+            <div class="service-main">
+              <h3>Estrategia de marca</h3>
+              <p>Definimos quién eres, a quién le hablas y por qué deberían elegirte. Investigación, posicionamiento y plataforma de marca.</p>
+              <ul class="tags"><li>Naming</li><li>Posicionamiento</li><li>Tono de voz</li></ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service" data-reveal style="--i:1">
+            <span class="service-index">02</span>
+            <div class="service-main">
+              <h3>Identidad visual</h3>
+              <p>Sistemas de identidad coherentes y memorables: logotipo, tipografía, color y todas las piezas que tu marca necesita para brillar.</p>
+              <ul class="tags"><li>Logotipo</li><li>Branding</li><li>Guías de estilo</li></ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service" data-reveal style="--i:2">
+            <span class="service-index">03</span>
+            <div class="service-main">
+              <h3>Diseño web UX/UI</h3>
+              <p>Interfaces claras, rápidas y centradas en el usuario, diseñadas para guiar a tus visitantes hasta la acción que te interesa.</p>
+              <ul class="tags"><li>UX Research</li><li>UI Design</li><li>Prototipado</li></ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+          <li class="service" data-reveal style="--i:3">
+            <span class="service-index">04</span>
+            <div class="service-main">
+              <h3>Desarrollo web</h3>
+              <p>Desarrollo a medida con las mejores prácticas: webs corporativas, e-commerce y aplicaciones, optimizadas para SEO y velocidad.</p>
+              <ul class="tags"><li>Front-end</li><li>E-commerce</li><li>CMS</li></ul>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TRABAJO ============ -->
+    <section class="section section--tint" id="trabajo">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Trabajo seleccionado</p>
+            <h2 class="section-title" data-reveal style="--i:1">Proyectos que <em>enorgullecen.</em></h2>
+          </div>
+          <p class="section-desc" data-reveal style="--i:2">Una muestra de colaboraciones recientes con marcas que confiaron en nosotros para dar el salto digital.</p>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card" data-reveal>
+            <a href="#contacto" aria-label="Proyecto Nordik Living">
+              <figure class="work-figure">
+                <img src="images/work-1.jpg" alt="Nordik Living — identidad y tienda online" width="880" height="660" loading="lazy">
+                <span class="work-tag">E-commerce · Branding</span>
+              </figure>
+              <div class="work-meta">
+                <div>
+                  <h3>Nordik Living</h3>
+                  <p>Identidad y tienda online para una marca de mobiliario escandinavo. +64% en ventas el primer trimestre.</p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-card" data-reveal style="--i:1">
+            <a href="#contacto" aria-label="Proyecto Marea Studio">
+              <figure class="work-figure">
+                <img src="images/work-2.jpg" alt="Marea Studio — sitio corporativo" width="880" height="660" loading="lazy">
+                <span class="work-tag">Web corporativa</span>
+              </figure>
+              <div class="work-meta">
+                <div>
+                  <h3>Marea Studio</h3>
+                  <p>Rediseño completo de la presencia digital de un estudio de arquitectura con proyección internacional.</p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-card" data-reveal style="--i:2">
+            <a href="#contacto" aria-label="Proyecto Orbe">
+              <figure class="work-figure">
+                <img src="images/work-3.jpg" alt="Orbe — plataforma digital" width="880" height="660" loading="lazy">
+                <span class="work-tag">Producto digital</span>
+              </figure>
+              <div class="work-meta">
+                <div>
+                  <h3>Orbe</h3>
+                  <p>Diseño de producto y sitio de lanzamiento para una fintech que ya capta usuarios en 4 países.</p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" aria-label="Cifras del estudio">
+      <div class="container stats-grid">
+        <div class="stat" data-reveal>
+          <span class="stat-num"><span data-count="120">0</span><i>+</i></span>
+          <span class="stat-label">Proyectos lanzados</span>
+        </div>
+        <div class="stat" data-reveal style="--i:1">
+          <span class="stat-num"><span data-count="98">0</span><i>%</i></span>
+          <span class="stat-label">Clientes que repiten</span>
+        </div>
+        <div class="stat" data-reveal style="--i:2">
+          <span class="stat-num"><span data-count="14">0</span><i>✳</i></span>
+          <span class="stat-label">Premios de diseño</span>
+        </div>
+        <div class="stat" data-reveal style="--i:3">
+          <span class="stat-num"><span data-count="8">0</span><i>a</i></span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESO ============ -->
+    <section class="section" id="proceso">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Proceso</p>
+            <h2 class="section-title" data-reveal style="--i:1">Un camino claro,<br><em>sin sorpresas.</em></h2>
+          </div>
+          <p class="section-desc" data-reveal style="--i:2">Sabemos que tu tiempo vale oro. Por eso trabajamos con un método transparente, con entregas y objetivos definidos desde el día uno.</p>
+        </div>
+
+        <ol class="process-grid">
+          <li class="step" data-reveal>
+            <span class="step-index">01</span>
+            <h3>Descubrimiento</h3>
+            <p>Escuchamos tus objetivos, analizamos tu mercado y tu competencia para entender el terreno antes de mover ficha.</p>
+          </li>
+          <li class="step" data-reveal style="--i:1">
+            <span class="step-index">02</span>
+            <h3>Estrategia</h3>
+            <p>Definimos juntos el rumbo: mensajes, estructura y un plan de acción con hitos y fechas concretas.</p>
+          </li>
+          <li class="step" data-reveal style="--i:2">
+            <span class="step-index">03</span>
+            <h3>Diseño</h3>
+            <p>Damos forma a la experiencia con prototipos interactivos que validamos contigo, iterando hasta enamorar.</p>
+          </li>
+          <li class="step" data-reveal style="--i:3">
+            <span class="step-index">04</span>
+            <h3>Desarrollo y lanzamiento</h3>
+            <p>Construimos, medimos y lanzamos. Y después del despegue, seguimos a tu lado para seguir creciendo.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIOS ============ -->
+    <section class="section section--tint" id="testimonios">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Clientes</p>
+            <h2 class="section-title" data-reveal style="--i:1">Lo que dicen de <em>trabajar con nosotros.</em></h2>
+          </div>
+        </div>
+
+        <div class="testimonial-grid">
+          <blockquote class="testimonial" data-reveal>
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <p>Áurea entendió nuestra visión desde la primera reunión. La nueva web no solo es preciosa: nuestras ventas online crecieron un 64% en tres meses.</p>
+            <footer>
+              <span class="avatar av-1" aria-hidden="true">LF</span>
+              <div>
+                <cite>Lucía Ferrer</cite>
+                <span>CEO · Nordik Living</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial" data-reveal style="--i:1">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <p>Profesionalidad y buen gusto en cada detalle. Cumplieron plazos, comunicaron todo con claridad y el resultado superó lo que habíamos imaginado.</p>
+            <footer>
+              <span class="avatar av-2" aria-hidden="true">MS</span>
+              <div>
+                <cite>Martín Sosa</cite>
+                <span>Fundador · Marea Studio</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial" data-reveal style="--i:2">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <p>Trabajar con Áurea fue como sumar un equipo de producto de primer nivel. Hoy nuestra plataforma capta usuarios en cuatro países.</p>
+            <footer>
+              <span class="avatar av-3" aria-hidden="true">CV</span>
+              <div>
+                <cite>Carolina Vidal</cite>
+                <span>CMO · Orbe</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="section-head section-head--center">
+          <div>
+            <p class="eyebrow" data-reveal>Preguntas frecuentes</p>
+            <h2 class="section-title" data-reveal style="--i:1">¿Tienes <em>dudas?</em></h2>
+          </div>
+        </div>
+
+        <div class="faq-list" data-reveal>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Cuánto cuesta un proyecto?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer"><div class="faq-answer-inner">
+              <p>Cada proyecto es único, pero como referencia: una identidad de marca parte de 2.500&nbsp;USD y una web corporativa de 4.000&nbsp;USD. Tras conocer tu caso, te enviamos una propuesta cerrada en 48&nbsp;horas, sin compromiso.</p>
+            </div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Cuánto tiempo tarda?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer"><div class="faq-answer-inner">
+              <p>Una web corporativa suele estar lista en 4–6 semanas; un proyecto de branding completo, en 6–8. Definimos el calendario juntos antes de empezar y lo cumplimos.</p>
+            </div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Trabajáis con clientes fuera de Uruguay?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer"><div class="faq-answer-inner">
+              <p>Sí. Trabajamos de forma remota con clientes de Europa y América. Nos adaptamos a tu zona horaria y mantenemos reuniones semanales por videollamada.</p>
+            </div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Ofrecéis mantenimiento después del lanzamiento?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer"><div class="faq-answer-inner">
+              <p>Claro. Disponemos de planes mensuales de mantenimiento, mejora continua y soporte prioritario para que tu web esté siempre al día, segura y rápida.</p>
+            </div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Cómo empezamos?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer"><div class="faq-answer-inner">
+              <p>Muy fácil: escríbenos a través del formulario de contacto y agendaremos una llamada gratuita de 30 minutos para conocernos y valorar tu proyecto.</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-card" data-reveal>
+          <span class="cta-deco cta-deco--1" aria-hidden="true">✳</span>
+          <span class="cta-deco cta-deco--2" aria-hidden="true">✳</span>
+          <h2>¿Tienes una idea?<br><em>Hagámosla realidad.</em></h2>
+          <a class="btn btn--primary btn--lg" href="#contacto">Cuéntanos tu proyecto <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow" data-reveal>Contacto</p>
+          <h2 class="section-title" data-reveal style="--i:1">Hablemos de tu<br><em>próximo proyecto.</em></h2>
+          <p class="contact-lead" data-reveal style="--i:2">Rellena el formulario o escríbenos directamente. Respondemos en menos de 24&nbsp;horas laborables.</p>
+
+          <ul class="contact-list" data-reveal style="--i:3">
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              </span>
+              <div><span>Email</span><a href="mailto:hola@aurea.studio">hola@aurea.studio</a></div>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.6a2 2 0 0 1 1.7 2.1Z"/></svg>
+              </span>
+              <div><span>Teléfono / WhatsApp</span><a href="tel:+59899123456">+598 99 123 456</a></div>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div><span>Estudio</span><p>Punta del Este, Uruguay</p></div>
+            </li>
+          </ul>
+
+          <div class="social-row" data-reveal style="--i:4">
+            <a href="#" rel="noopener">Instagram ↗</a>
+            <a href="#" rel="noopener">LinkedIn ↗</a>
+            <a href="#" rel="noopener">Behance ↗</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap" data-reveal style="--i:2">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="f-nombre">Nombre *</label>
+              <input type="text" id="f-nombre" name="nombre" autocomplete="name" required placeholder="Tu nombre">
+            </div>
+            <div class="field">
+              <label for="f-email">Email *</label>
+              <input type="email" id="f-email" name="email" autocomplete="email" required placeholder="tu@empresa.com">
+            </div>
+            <div class="field">
+              <label for="f-empresa">Empresa</label>
+              <input type="text" id="f-empresa" name="empresa" autocomplete="organization" placeholder="Nombre de tu empresa (opcional)">
+            </div>
+            <div class="field">
+              <label for="f-presupuesto">Presupuesto aproximado</label>
+              <select id="f-presupuesto" name="presupuesto">
+                <option value="">Prefiero no decirlo aún</option>
+                <option value="2.5-5k">2.500 – 5.000 USD</option>
+                <option value="5-10k">5.000 – 10.000 USD</option>
+                <option value="10k+">Más de 10.000 USD</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-mensaje">Cuéntanos tu idea *</label>
+              <textarea id="f-mensaje" name="mensaje" rows="4" required placeholder="¿Qué quieres construir? ¿Qué objetivo persigues?"></textarea>
+            </div>
+            <p class="form-error" id="formError" role="alert" hidden>Revisa los campos marcados: faltan datos o el email no es válido.</p>
+            <button class="btn btn--primary btn--full" type="submit">Enviar mensaje <span aria-hidden="true">↗</span></button>
+            <p class="form-note">Al enviar aceptas nuestra política de privacidad. Nunca compartiremos tus datos.</p>
+          </form>
+
+          <div class="form-success" id="formSuccess" hidden>
+            <span class="form-success-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            </span>
+            <h3>¡Mensaje enviado!</h3>
+            <p>Gracias por escribirnos. Te responderemos en menos de 24 horas laborables.</p>
+            <button class="btn btn--ghost" type="button" id="formReset">Enviar otro mensaje</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo logo--footer" href="#inicio">Áurea<span class="logo-dot">.</span></a>
+          <p>Estudio digital independiente.<br>Diseño, marca y desarrollo web.</p>
+        </div>
+        <nav class="footer-col" aria-label="Mapa del sitio">
+          <h4>Mapa</h4>
+          <a href="#servicios">Servicios</a>
+          <a href="#trabajo">Trabajo</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <nav class="footer-col" aria-label="Servicios">
+          <h4>Servicios</h4>
+          <a href="#servicios">Estrategia de marca</a>
+          <a href="#servicios">Identidad visual</a>
+          <a href="#servicios">Diseño UX/UI</a>
+          <a href="#servicios">Desarrollo web</a>
+        </nav>
+        <nav class="footer-col" aria-label="Redes sociales">
+          <h4>Síguenos</h4>
+          <a href="#" rel="noopener">Instagram ↗</a>
+          <a href="#" rel="noopener">LinkedIn ↗</a>
+          <a href="#" rel="noopener">Behance ↗</a>
+        </nav>
+      </div>
+
+      <p class="footer-word" aria-hidden="true">Áurea</p>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Áurea Estudio. Todos los derechos reservados.</p>
+        <p>Hecho con calma en Uruguay <span aria-hidden="true">✳</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
